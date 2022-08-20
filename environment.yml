@@ -1,0 +1,24 @@
+name: storytelling
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.5
+  - pip
+  - keplergl
+  - pip:
+      - db-dtypes
+      - pandas
+      - numpy
+      - tqdm
+      - pyarrow
+      - bottleneck  # Pandas recommended package
+      - matplotlib
+      - plotly
+      - bokeh
+      - pillow
+      - seaborn
+      - pyvis # Interactive network visualizations
+      - black # The Black code formatting utility
+      - folium
+      - scikit-learn
